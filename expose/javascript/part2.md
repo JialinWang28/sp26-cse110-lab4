@@ -47,4 +47,15 @@ F. true. Boolean(x) returns 1 if x is a nonzero number
 
 15. == compares 2 values allowing type conversion, whereas === does not allow type conversion
 
-16.
+16. done, see part2-question16.js
+
+17. it returns [2, 4, 6]. callback refers to the doSomething function. the loop calls doSomething on each array element which mulitplies each numerb by 2
+
+18. done, see part2-question18.js
+
+19. the output is
+1
+4
+3
+2
+1 gets logged immediately. console.log(2) gets delayed for 1000ms, and setTimeout(..., 0) allows 3 to be logged after syncrhonous code finishes. 4 gets logged immediately, so 3 is after that
